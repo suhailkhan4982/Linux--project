@@ -2,7 +2,7 @@
 
 This repository contains a comprehensive technical audit of **Mozilla Firefox** conducted within an Open Source environment. The project validates the transparency, security, and integrity of the software using automated Linux-based shell scripts.
 
-## 📂 Project Structure
+## Project Structure
 * **/report**: Contains the final 16-page technical audit report (PDF).
 * **/scripts**: Contains the Bash (.sh) scripts used for automated verification:
     * `system_identity.sh`: Verifies OS and Kernel versions.
@@ -16,7 +16,7 @@ This repository contains a comprehensive technical audit of **Mozilla Firefox** 
 * **Language**: Bash (Shell Scripting)
 * **Audit Target**: Mozilla Firefox (MPL 2.0 License)
 
-## 🚀 How to Run the Scripts
+## How to Run the Scripts
 To replicate this audit, run the scripts in your Ubuntu terminal:
 ```bash
 bash scripts/system_identity.sh
